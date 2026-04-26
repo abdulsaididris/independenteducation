@@ -54,22 +54,22 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 .logo-container {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 12px;
 }
 
 .logo-container img {
-    height: 50px;
+    height: 40px;
     border-radius: 8px;
 }
 
 .logo-text {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 800;
     color: var(--primary-color);
     letter-spacing: -0.5px;
@@ -88,13 +88,13 @@ nav ul {
     display: flex;
     align-items: center;
     list-style: none;
-    gap: 30px;
+    gap: 20px;
 }
 
 nav a {
     font-weight: 600;
     color: var(--text-color);
-    font-size: 0.95rem;
+    font-size: 0.85rem;
 }
 
 nav a:hover {
