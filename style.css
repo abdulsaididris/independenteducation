@@ -502,6 +502,15 @@ footer {
 }
 
 @media (max-width: 992px) {
+    .nav-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
     .services-grid {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -524,9 +533,15 @@ footer {
         grid-template-columns: 1fr;
     }
     nav ul {
-        display: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
     }
     .deliverables-grid {
         grid-template-columns: 1fr;
+    }
+    .form-row {
+        flex-direction: column;
     }
 }
